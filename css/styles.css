@@ -38,3 +38,60 @@ body{
 .flex-wrapper {
     display: flex;
 }
+
+/* Navigation sidebar styling */
+
+.kanban-sidebar {
+    width: 18.75rem;
+    height: 64rem;
+    background-color: var(--SidebarBackground-color);
+}
+
+.kanban-logo {
+    width: 9.5331rem;
+    height: 1.5762rem;
+    object-fit: cover;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.kanban-nav-links {
+    width: 17.25rem;
+    height: 50rem;
+    margin-top: 3.5625rem;
+    margin-right: 2rem;
+}
+
+.allBoards-heading {
+    font-weight: 700;
+    font-size: .75rem;
+    line-height: 100%;
+    letter-spacing: .15rem;
+    color: var(--h4Text-color);
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.launchCareer-btn {
+    width: 17.25rem;
+    height: 3rem;
+    border: none;
+    border-top-right-radius: 6.25rem;
+    border-bottom-right-radius: 6.25rem;
+    background-color: var(--btn-color);
+    font-family: 'Plus Jakarta Sans';
+    color: var(--btnText-color);
+    font-weight: 700;
+    font-size: .9375rem;
+    line-height: 100%;
+    margin: .0625rem 0;
+    padding: 0;
+    letter-spacing: 0;
+}
+
+/* btn hover effect */
+
+.launchCareer-btn:hover {
+    background-color: var(--btnHover-color);
+    cursor: pointer;
+}
