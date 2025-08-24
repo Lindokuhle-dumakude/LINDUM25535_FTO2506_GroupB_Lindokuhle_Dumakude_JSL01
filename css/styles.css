@@ -1,0 +1,37 @@
+/* Import google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --layoutBackground-color: #F4F7FD;   /* Light Grey */
+    --boardTitle-color: #FFFFFF;  /* white */
+    --SidebarBackground-color: #FFFFFF;  /* white */
+    --CardBackground-color: #FFFFFF;  /* white */
+    --btn-color: #635FC7;  /* main purple */
+    --btnHover-color: #4b47b7; /* secondary purple */
+    --TODOicon-color: #49C4E5;  /* light blue */
+    --DOINGicon-color: #8471F2;  /* purple */
+    --DONEicon-color: #67E2AE;  /* light green */
+    --h4Text-color: #828FA3;  /* medium Grey */
+    --h2Text-color: #000112;  /* black */
+    --text-color: #000112;  /* black */
+    --btnText-color: #FFFFFF;  /* white */
+
+}
+
+/* Default Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+    background-color: var(--layoutBackground-color);
+    width: 90rem;
+    height: 64rem;
+}
+
