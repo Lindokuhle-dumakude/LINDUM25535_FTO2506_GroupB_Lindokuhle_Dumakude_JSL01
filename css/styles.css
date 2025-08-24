@@ -114,3 +114,53 @@ body{
     padding-top: 2rem;
     padding-left: 2rem;
 }
+
+/* task column styling */
+
+.task-card {
+    width: 74.5rem;
+    height: 53.3125rem;
+    padding-top: 1.25rem;
+    padding-left: 2rem;
+}
+
+.status-heading {
+    display: inline-block;
+    font-weight: 700;
+    font-size: .75rem;
+    line-height: 100%;
+    margin: .0625rem 0;
+    letter-spacing: .15rem;
+    color: var(--h4Text-color);
+    margin-bottom: 2rem;
+}
+
+span {
+    padding-right: .75rem;
+}
+
+main {
+    display: flex;
+    gap: 1.25rem;
+    font-weight: 700;
+    font-size: .9375rem;
+    line-height: 100%;
+    margin: .0625rem 0;
+    letter-spacing: 0;
+    width: 54.5rem;
+    height: 45.25rem;
+}
+
+.card {
+    width: 17.5rem;
+    height: 3.75rem;
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: var(--CardBackground-color);
+    box-shadow: 0 .25rem .375rem 0 rgba(54,78,126,0.1015);
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: .9375rem;
+    line-height: 100%;
+    letter-spacing: 0;
+}
