@@ -164,3 +164,60 @@ main {
     line-height: 100%;
     letter-spacing: 0;
 }
+
+/* Responsive design styling */
+
+/* Tablet responsive */
+
+@media (max-width:1024px) {
+    main {
+        flex-wrap: wrap;
+    }
+    .done-column {
+        margin-bottom: 9rem;
+    }
+}
+
+@media (max-width:768px) {
+    main {
+        display: grid;
+    }
+}
+
+/* mobile smartphone responsive */
+
+@media (max-width:480px) {
+    body {
+        width: 23.4375rem;
+        height: 41.6875rem;
+    }
+
+    .kanban-sidebar {
+        width: 23.4375rem;
+        height: 4rem;
+    }
+
+    .kanban-logo {
+        margin: 1rem 0 0 2rem;
+    }
+
+    .kanban-nav-links {
+        display: none;
+    }
+
+    .column-header {
+        display: none;
+    }
+
+    .flex-wrapper {
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;
+    }
+    
+    .card {
+        width: 20rem;
+    }
+}
