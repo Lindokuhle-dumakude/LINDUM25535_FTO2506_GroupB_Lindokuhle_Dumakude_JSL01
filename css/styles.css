@@ -95,3 +95,22 @@ body{
     background-color: var(--btnHover-color);
     cursor: pointer;
 }
+
+/* Main layout styling */
+
+.column-header {
+    width: 71.25rem;
+    height: 6.0625rem;
+    background-color: var(--boardTitle-color);
+    margin-left: .0625rem;
+}
+
+.column-heading {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 100%;
+    margin: 1px 0;
+    letter-spacing: 0;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
