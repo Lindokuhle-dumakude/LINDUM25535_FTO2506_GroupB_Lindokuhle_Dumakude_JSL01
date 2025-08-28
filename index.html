@@ -11,7 +11,7 @@
     <div class="flex-wrapper">
         <!-- Navigation Sidebar: Contains the logo, navigation links for boards, and theme toggle. -->
         <nav class="kanban-sidebar">
-            <div>
+            <div class="kanban-logo-div">
                 <img src="assets/logo-light.svg" alt="Shows Kanban logo" class="kanban-logo">
             </div>
             <div class="kanban-nav-links">
@@ -21,8 +21,11 @@
         </nav>
 
         <!-- Main Layout: Header with board title, add task button, and main content area for task columns. -->
-        <div>
+        <div class="layout">
             <header class="column-header">
+                <div class="menu-togle-btn">
+                    <img src="assets/favicon.svg" alt="menu-toggle" class="menu-toggle">
+                </div>
                 <div >
                     <h2 class="column-heading">Launch Career</h2>
                 </div>
@@ -31,7 +34,7 @@
             <div class="task-card">
                 <main>
                     <!-- Task Columns: Display tasks grouped by status (TODO, DOING, DONE). -->
-                    <div class="todo-column">
+                    <div class="column-div">
                         <div>
                             <span><img src="assets/todo-iconboard.png" alt="Todo status icon"></span>
                             <h4 class="status-heading">TODO (4)</h4>
@@ -45,7 +48,7 @@
                         </div>
                     </div>
                     <!-- DOING Column -->
-                    <div class="doing-column">
+                    <div class="column-div">
                         <div>
                             <span><img src="assets/doing-iconboard.png" alt="Doing status icon"></span>
                             <h4 class="status-heading">DOING (2)</h4>
@@ -57,7 +60,7 @@
                         </div>
                     </div>
                     <!-- DONE Column -->
-                    <div class="done-column">
+                    <div class="column-div">
                         <div>
                             <span><img src="assets/done-iconboard.png" alt="Done status icon"></span>
                             <h4 class="status-heading">DONE (2)</h4>
