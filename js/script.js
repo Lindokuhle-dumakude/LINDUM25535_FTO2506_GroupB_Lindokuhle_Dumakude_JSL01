@@ -23,6 +23,12 @@ for (let i = 1; i <= 2; i++) {
 
   while (status !== "todo" && status !== "doing" && status !== "done") {
     alert("Invalid status. Please enter 'todo', 'doing' or 'done'.");
+
+    // Repeatedly prompt user for valid status until valid status is entered to avoid incorrect values from being stored.
+
+    status = prompt(
+      `enter the status for Task ${i} (todo, doing, done):`
+    ).toLowerCase();
   }
 
   if (i === 1) {
