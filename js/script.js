@@ -41,5 +41,11 @@ for (let i = 1; i <= 2; i++) {
     task2Title = title;
     task2Description = description;
     task2Status = status;
+
+    // output message format.
+
+    if (status === "done") {
+      console.log(`Task ${i}: ${title}, status: ${status}`);
+    }
   }
 }
