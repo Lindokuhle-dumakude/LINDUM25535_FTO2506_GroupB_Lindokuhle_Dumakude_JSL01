@@ -31,6 +31,8 @@ for (let i = 1; i <= 2; i++) {
     ).toLowerCase();
   }
 
+  //  Store title, description and status in separate variables.
+
   if (i === 1) {
     task1Title = title;
     task1Description = description;
