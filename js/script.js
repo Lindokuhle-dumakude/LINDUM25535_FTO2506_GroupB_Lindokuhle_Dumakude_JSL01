@@ -13,10 +13,10 @@ let task2Status;
 // Using loop to prompt the user
 
 for (let i = 1; i <= 2; i++) {
-  let title = prompt(`Enter the title for Task ${i}:`);
-  let description = prompt(`Enter the description for Task ${i}:`);
+  let title = prompt(`Enter Task ${i} title :`);
+  let description = prompt(`Enter Task ${i} description :`);
   let status = prompt(
-    `Enter the status for Task ${i} (todo, doing, done):`
+    `Enter Task ${i} status (todo, doing, done):`
   ).toLowerCase(); // Validate the status input to allow only "todo", "doing", or "done" and convert all status inputs to lowercase.
 
   // Notify user if an invalid status is entered.
@@ -27,7 +27,7 @@ for (let i = 1; i <= 2; i++) {
     // Repeatedly prompt user for valid status until valid status is entered to avoid incorrect values from being stored.
 
     status = prompt(
-      `enter the status for Task ${i} (todo, doing, done):`
+      `Enter Task ${i} status (todo, doing, done):`
     ).toLowerCase();
   }
 
