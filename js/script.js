@@ -19,6 +19,12 @@ for (let i = 1; i <= 2; i++) {
     `Enter the status for Task ${i} (todo, doing, done):`
   ).toLowerCase(); // Validate the status input to allow only "todo", "doing", or "done" and convert all status inputs to lowercase.
 
+  // Notify user if an invalid status is entered.
+
+  while (status !== "todo" && status !== "doing" && status !== "done") {
+    alert("Invalid status. Please enter 'todo', 'doing' or 'done'.");
+  }
+
   if (i === 1) {
     task1Title = title;
     task1Description = description;
