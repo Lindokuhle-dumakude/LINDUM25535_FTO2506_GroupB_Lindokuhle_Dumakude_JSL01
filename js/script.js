@@ -41,11 +41,13 @@ for (let i = 1; i <= 2; i++) {
     task2Title = title;
     task2Description = description;
     task2Status = status;
+  }
 
-    // output message format.
+  // output message format if task is marked as "done".
 
-    if (status === "done") {
-      console.log(`Task ${i}: ${title}, status: ${status}`);
-    }
+  if (status === "done") {
+    console.log(`Task ${i}: ${title}, status: ${status}`);
+  } else {
+    console.log(`No tasks completed, let's get to work!`); // output message format if there is no tasks marked as "done".
   }
 }
